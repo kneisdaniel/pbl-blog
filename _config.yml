@@ -22,7 +22,7 @@ title: Laurenz' Blog
 email: laurenz.stampfl@everyonecodes.io
 description: >- # this means to ignore newlines until "baseurl:"
   This is my personal blog where I sometimes write some stuff.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/pbl-blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
