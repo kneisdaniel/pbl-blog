@@ -93,6 +93,12 @@ Service:
         return repository.findAll(AnimeSpecification.filter(title, miniText, year));
     }
 ```
+Repository:
+```
+@Repository
+public interface AnimeRepository extends JpaRepository<Anime, Long>, JpaSpecificationExecutor<Anime> {
+}
+```
 Now, with the Specification, I was able to combine the 'get all' method with the filtering options. 
 This was made possible with the help of a colleague. 
 
