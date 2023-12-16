@@ -2,8 +2,6 @@
 layout: post
 title: "My Project"
 ---
-Hello! My name is Daniel Kneis, and my preferences are anime and video games. In this blog, I will introduce you to my project and delve into some problems I encountered during its development. This project is part of a Java programming course offered by [everyone codes](https://everyonecodes.io/), and we had 6 weeks to complete it.
-
-My project is a lexicon designed to help anime fans discover series available in Austria. To achieve this, I utilized Maven Spring Boot (software used: IntelliJ Idea), GIT and GitHub to track the project's progress, Json to read test data, PostgreSQL as the database, and JPA for data management.
+Hi! My name is Daniel Kneis and I currently visiting a 10-month Java programming course at [everyone codes](https://everyonecodes.io/). In order to practice our newly-gained skills in Java and Spring Boot, we had 6 weeks to work on a small project of our choice. As an anime fan, I decided to write a small Lexicon Project for Watchable anime in Austria. 
 
 Thanks for reading my blog!
