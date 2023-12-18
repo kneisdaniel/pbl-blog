@@ -1,10 +1,21 @@
 ---
 layout: post
-title: "My Project"
+title: "My Spring Boot Project"
 ---
-Hello! My name is Daniel Kneis, and my preferences are anime and video games. In this blog, I will introduce you to my project and delve into some problems I encountered during it's development. This project is part of a Java programming course offered by  [everyone codes](https://everyonecodes.io/), and we had 6 weeks to work on it.
+In this blog, I will introduce you to my project and delve into some problems I encountered during it's development. This project is part of a Java 10-month programming course offered by [everyone codes](https://everyonecodes.io/), and we had 6 weeks to work on it.
 
-My project is a lexicon to help anime fan's discover series available in Austria. To achieve this, I utilized Maven Spring Boot (software used: IntelliJ Idea), GIT and GitHub to track the project's progress, Json to read test data, PostgreSQL as the database, and JPA for data management.
+My project is a lexicon to help anime fans discover series available in Austria. To achieve this, I utilized IntelliJ Idea to write the backend code.
+
+## Requiermants
+
+For my project i needed different parts:
+
+* a Database to save informations
+* JSON to give the database information 
+* Postman to test GET requests
+* different filter methodes to find easy the searched anime
+
+To save progress and have a chance to stap back to an old state of my project i used GitHub.
 
 ## Filter
 To enable filtering with multiple variables, I have added a Specification to my project
