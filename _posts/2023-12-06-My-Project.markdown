@@ -2,7 +2,7 @@
 layout: post
 title: "My Spring Boot Project"
 ---
-In this blog, I will introduce you to my project and delve into some problems I encountered during it's development. This project is part of a Java 10-month programming course offered by [everyone codes](https://everyonecodes.io/), and we had 6 weeks to work on it.
+In this blog, I will introduce you to my project and delve into some problems I encountered during it's development. This project is part of a 10-month Java programming course offered by [everyone codes](https://everyonecodes.io/), and we had 6 weeks to work on it.
 
 My project is a lexicon to help anime fans discover series available in Austria. To achieve this, I utilized IntelliJ Idea to write the backend code.
 
