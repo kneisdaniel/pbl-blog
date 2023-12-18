@@ -8,11 +8,11 @@ My project is a lexicon to help anime fans discover series available in Austria.
 
 ## Requiermants
 
-For my project i neededdifferent parts:
+For my project i needed different parts:
 
 * a Database to save informations
 * JSON to give the database information 
-* Postman to test get requests
+* Postman to test GET requests
 * different filter methodes to find easy the searched anime
 
 To save progress and have a chance to stap back to an old state of my project i used GitHub.
