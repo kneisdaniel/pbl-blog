@@ -115,6 +115,5 @@ public interface AnimeRepository extends JpaRepository<Anime, Long>, JpaSpecific
 }
 ```
 Now, with the Specification, I was able to combine the 'get all' method with the filtering options. 
-This was made possible with the help of a colleague.
 
 Thanks for reading my blog!
