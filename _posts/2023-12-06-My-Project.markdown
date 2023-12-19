@@ -34,9 +34,6 @@ public class AnimeSpecification {
         return (root, query, criteriaBuilder) -> {
             List<Predicate> predicates = new ArrayList<>();
 
-            if (title != null) {
-                predicates.add(criteriaBuilder.equal(root.get("title"), title));
-            }
             if (year != null){
                 predicates.add(criteriaBuilder.equal(root.get("yearOfRelease"), year));
             }
