@@ -6,7 +6,7 @@ In this blog, I will introduce you to my project and delve into some problems I 
 
 ## Filter
 
-To allow to filter the List of Anime's i created this code:
+To allow to filter the list of Anime's I created this code:
 
 Service:
 ```
@@ -40,15 +40,15 @@ This is the Controller for the filter methodes:
         }
     }
 ```
-The Controlller works with enums to find the right filter for the user. For the manual testing i used Postman. The way i used for filtering has worked, but this is not right it don't allow the user to filter with more Parameters.
+The Controlller works with enums to find the right filter for the user. For the manual testing I used Postman. The way I used for filtering has worked, but this is not right it don't allow the user to filter with more Parameters.
 
-With this realization i searched other way to filter with more parameters and that the list filtered in the database and not in the service. 
+With this realization I searched other way to filter with more parameters and that the list filtered in the database and not in the service. 
 
-After two days i found a neu way to let the user use more filter options and started to write the code.
+After two days I found a new way to let the user use more filter options and started to write the code.
 
 # Specification
 
-Now with the specification i can fix the two problems. First the user can filter with more options in the same time. Second the filtering is carried out in the database and no longer in the service.
+Now with the specification I can fix the two problems. First the user can filter with more options in the same time. Second the filtering is carried out in the database and no longer in the service.
 
 To use the specification we need this code in the reposetory: 
 ```
@@ -75,7 +75,7 @@ Now we look in the AnimeSpecification:
         };
     }
 ```
-In this Specification Class have two options to filter the animes per included text and per the same year.
+This specification class has two options to filter the animes per included text and per the same year.
 
 Contoller with Specivication: 
 ```
